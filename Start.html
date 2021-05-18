@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>COVID 19 Appointment Machine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  
+  <script type="text/javascript" src="../scripts/scripts.js"></script>
+
+  <style>
+    form {
+      position: absolute;
+      font-family: 'Source Sans Pro', sans-serif;
+      top: 240px;
+    } 
+  </style>
+</head>
+<body>
+
+  <div class="dropdown">
+      <button onclick="menu()" class="dropbtn">Start</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="./Index.html">Home</a>
+        <a href="./Contact.html">Contact</a>
+      </div>
+  </div>
+
+  <section>
+    <p id = "message">
+    Please create a username and password below to get started. <br>
+    Your password must containn at least 8 characters, have a lowercase <br>
+    and uppercase letter, and must contain a number.
+    
+      <form action="./Confirmation.html">
+          <input type="text" id="username" placeholder="Username" required><br>
+          <input type="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
+          <input type="submit" id="messageButton" value="SUBMIT">
+      </form> 
+    </p>
+  </section>
+
+</body>
+</html>

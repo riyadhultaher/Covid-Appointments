@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>COVID 19 Appointment Machine</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  
+  <script type="text/javascript" src="../scripts/scripts.js"></script>
+
+	<style>
+		table {
+			position: absolute;
+			font-family: 'Source Sans Pro', sans-serif;
+			border-spacing: 10px;
+			top: 240px;
+			left: 88px;
+		}
+
+		#messageButton {
+      		display: flex;
+      		position: absolute;
+      		top: 200px;
+      		background-color: #1f1f1f;
+      		padding: 15px;
+      		color: white;
+      		font-family: 'Source Sans Pro', sans-serif;
+      		text-align: center;
+    	}
+	</style>
+</head>
+<body>
+
+	<div class="dropdown">
+  		<button onclick="menu()" class="dropbtn">Home</button>
+  		<div id="myDropdown" class="dropdown-content">
+    		<a href="./Start.html">Start</a>
+    		<a href="./Contact.html">Contact</a>
+  		</div>
+	</div>
+
+	<section>
+		<p id = "message">
+		Thank you for signing up!
+		
+		<button onclick = "document.location = './Index.html'" id = "messageButton">HOME</button>
+
+		<table style="text-align: left">
+  			<tr>
+    			<th>Contributors</th>
+    			<th>Email</th> 
+    			<th>Phone</th>
+  			</tr>
+  			<tr>
+   	 			<td>Riyadhul Taher</td>
+    			<td>riyadhultaher@fakeemail.com</td>
+    			<td>1-800-FAKENUMBER</td>
+  			</tr>
+		</table>
+	</p>
+	</section>
+
+</body>
+</html>
