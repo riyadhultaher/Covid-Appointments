@@ -1,6 +1,8 @@
 This website provides navigation and information regarding a COVID 19 vaccine.
 
-You can start by opening up the Index.html file in the html files folder.
+It can accessed via the link: https://riyadhultaher.github.io/covidappointments.github.io/
+
+Alternatively, you can start by opening up the Index.html file in the html files folder.
 
 There are three parts:
 
