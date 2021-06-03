@@ -1,6 +1,6 @@
 This website provides navigation and information regarding a COVID 19 vaccine.
 
-It can accessed via the link: https://riyadhultaher.github.io/covidappointments.github.io/
+It can accessed via the link: https://riyadhultaher.github.io/covidappointments
 
 Alternatively, you can start by opening up the Index.html file in the html files folder.
 
